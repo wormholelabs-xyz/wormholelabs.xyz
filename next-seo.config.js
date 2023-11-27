@@ -7,7 +7,7 @@ export default {
     type: "website",
     images: [
       {
-        url: "default-banner.png",
+        url: "/default-banner.png",
         width: 1200,
         height: 630,
         alt: "Wormhole Labs",
