@@ -1,27 +1,96 @@
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("./fonts/EuclidCircularA-Light.woff2") format("woff2"),
+    url("./fonts/EuclidCircularA-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("./fonts/EuclidCircularA-Medium.woff2") format("woff2"),
+    url("./fonts/EuclidCircularA-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("./fonts/EuclidCircularA-Regular.woff2") format("woff2"),
+    url("./fonts/EuclidCircularA-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-black  font-body text-white;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .h1 {
+    @apply text-[42px] md:text-[60px] xl:text-[80px] leading-[1.1] font-medium;
+  }
+  .h2 {
+    @apply text-[32px] md:text-[42px] xl:text-[64px] leading-[1.1] font-medium;
+  }
+  .h3 {
+    @apply text-[22px] md:text-[32px] xl:text-[40px] leading-[1.1] font-medium;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+@layer utilities {
+  .menuitem {
+    @apply font-semibold text-sm uppercase leading-none;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+  border-radius: 4px;
+  padding: 16px 40px;
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    265deg,
+    #b35aea 4.85%,
+    #bb61d3 24.41%,
+    #d87d7d 99.31%
+  );
+  box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.25) inset,
+    2px 2px 12px 0px rgba(0, 0, 0, 0.5);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  border-radius: 727px;
+  background: #000;
+  width: 727px;
+  height: 362px;
+  filter: blur(90px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.vision {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(25px);
 }
