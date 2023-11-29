@@ -63,13 +63,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="menuitem" href="#our-team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <Link className="menuitem" href="#contact-us">
-                Contact Us
+              <Link className="menuitem" href="#contact">
+                Contact
               </Link>
             </li>
           </ul>

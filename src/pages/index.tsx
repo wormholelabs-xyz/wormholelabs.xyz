@@ -46,30 +46,20 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div id="about-us" className="scroll-mt-24">
-        <div className="container">
-          <div className="pt-10 pb-20  md:pt-20  md:pb-48">
-            <h2 className="h2 mb-6">About us</h2>
-            <div className="text-lg font-light opacity-70 leading-normal md:max-w-[688px]">
-              <p className="mb-7">
-                Wormhole Lab is a technology company specializing in blockchain 
-                interoperability. We make significant contributions to the Wormhole 
-                messaging protocol because we envision a wide array of permissionless
-                systems built atop a multitude of blockchains with users who can
-                safely ignore the underlying technology, or dive deep if they choose.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="our-team" className="relative scroll-mt-24">
+      <div id="about-us" className="relative scroll-mt-24">
         <span className="absolute -right-[150px] -top-[150px] opacity-50 lg:opacity-100">
           <Image src={hole} alt="" />
         </span>
         <div className="container">
           <div className="lg:pt-32 lg:pb-40">
-            <h2 className="h2 mb-6">Our team</h2>
+            <h2 className="h2 mb-6">About Us</h2>
             <div className="text-lg font-light opacity-70 leading-normal max-w-[465px]">
+              <p className="mb-6">
+                Wormhole Labs is a technology company specializing in blockchain interoperability. 
+                We make significant contributions to the Wormhole messaging protocol because we 
+                envision a wide array of permissionless systems built atop a multitude of blockchains 
+                with users who can safely ignore the underlying technology, or dive deep if they choose.
+              </p>
               <p className="mb-6">
                 Our team members hail from diverse backgrounds, ranging from
                 quantitive trading to venture capital to enterprise software.
@@ -87,18 +77,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="contact-us" className="pb-20 md:pb-40 scroll-mt-24">
+      <div id="contact" className="pb-20 md:pb-40 scroll-mt-24">
         <div className="container flex flex-col-reverse lg:flex-row items-center">
           <div className="pt-10  flex-shrink-0 lg:max-w-[468px] w-full">
 
-            <h4 className="h2 mb-6">Contact Us</h4>
+            <h4 className="h2 mb-6">Contact</h4>
             <p className=" font-light opacity-70 leading-normal  mb-9 max-w-[468px]">
-              Whether you're a developer who wants to contribute to open-source
-              with us or an enterprise looking for cutting-edge blockchain solutions,
+              Whether you're a developer who wants to contribute to Wormhole or 
+              an enterprise looking for cutting-edge blockchain solutions,
               Wormhole Labs is here to help.
             </p>
             <Link href="mailto:contact@wormholelabs.xyz" className="btn">
-              Reach Out
+              Email Us
             </Link>
           </div>
           <div className="flex justify-center items-center flex-1">

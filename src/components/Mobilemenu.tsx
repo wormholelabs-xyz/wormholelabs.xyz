@@ -32,12 +32,7 @@ const MobileMenu = ({ headerState, setHeaderState }: MenuProps) => {
           </Link>
         </li>
         <li>
-          <Link className="menuitem" href="#our-team" onClick={closeMenu}>
-            Our Team
-          </Link>
-        </li>
-        <li>
-          <Link className="menuitem" href="#contact-us" onClick={closeMenu}>
+          <Link className="menuitem" href="#contact" onClick={closeMenu}>
             Contact Us
           </Link>
         </li>
