@@ -58,18 +58,8 @@ const Header = () => {
           <Logo className="block" />
           <ul className=" items-center gap-6 xl:gap-10 hidden lg:flex">
             <li>
-              <Link className="menuitem" href="#our-vision">
-                Our Vision
-              </Link>
-            </li>
-            <li>
               <Link className="menuitem" href="#about-us">
                 About Us
-              </Link>
-            </li>
-            <li>
-              <Link className="menuitem" href="#open-source">
-                Open-Source Commitment
               </Link>
             </li>
             <li>
@@ -78,8 +68,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="menuitem" href="#join-our-mission">
-                Join Our Mission
+              <Link className="menuitem" href="#contact-us">
+                Contact Us
               </Link>
             </li>
           </ul>

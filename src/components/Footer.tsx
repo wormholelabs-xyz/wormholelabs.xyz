@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="bg-white rounded-lg text-black flex flex-col md:flex-row items-center justify-between py-3 md:py-8 px-10">
         <Logo className="block" />
         <span className="text-sm text-[#7A7A7A] mt-5 md:mt-0 block">
-          © {new Date().getFullYear()} Wormhole Labs.
+          © {new Date().getFullYear()} Wormhole Labs
         </span>
       </div>
     </footer>

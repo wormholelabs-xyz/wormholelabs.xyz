@@ -27,18 +27,8 @@ const MobileMenu = ({ headerState, setHeaderState }: MenuProps) => {
     >
       <ul className="flex flex-col items-center gap-3 text-black ">
         <li>
-          <Link className="menuitem" href="#our-vision" onClick={closeMenu}>
-            Our Vision
-          </Link>
-        </li>
-        <li>
           <Link className="menuitem" href="#about-us" onClick={closeMenu}>
             About Us
-          </Link>
-        </li>
-        <li>
-          <Link className="menuitem" href="#open-source" onClick={closeMenu}>
-            Open-Source Commitment
           </Link>
         </li>
         <li>
@@ -47,12 +37,8 @@ const MobileMenu = ({ headerState, setHeaderState }: MenuProps) => {
           </Link>
         </li>
         <li>
-          <Link
-            className="menuitem"
-            href="#join-our-mission"
-            onClick={closeMenu}
-          >
-            Join Our Mission
+          <Link className="menuitem" href="#contact-us" onClick={closeMenu}>
+            Contact Us
           </Link>
         </li>
       </ul>
