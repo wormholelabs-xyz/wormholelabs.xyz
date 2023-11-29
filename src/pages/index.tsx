@@ -43,8 +43,8 @@ export default function Home() {
             envision a boundaryless blockchain world, and we’re working together
             to make it a reality.
           </p>
-          <Link href="/" className="btn">
-            Wormhole CTA
+          <Link href="https://wormhole.com" className="btn">
+            Explore Wormhole
           </Link>
         </div>
       </div>
@@ -172,8 +172,8 @@ export default function Home() {
               discussions, or simply drop us a line. Let's build the internet of
               blockchains, together.
             </p>
-            <Link href="/" className="btn">
-              Talk with us
+            <Link href="mailto:contact@wormholelabs.xyz" className="btn">
+              Contact Us
             </Link>
           </div>
           <div className="flex justify-center items-center flex-1">
