@@ -67,6 +67,11 @@ const Header = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link className="menuitem" href="https://boards.greenhouse.io/wormholelabs/">
+                Jobs
+              </Link>
+            </li>
           </ul>
 
           <button
