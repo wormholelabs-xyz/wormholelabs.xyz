@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "@/components/Layoyt";
+import Layout from "@/components/Layout";
 import Logo from "../images/labs.inline.svg";
 import bg from "../images/hero.svg";
 import line from "../images/line.svg";
@@ -41,8 +41,8 @@ export default function Home() {
             At Wormhole Labs, we're committed to forging a future where
             interoperability and security lead the blockchain revolution.
           </p>
-          <Link href="https://wormhole.com" className="btn">
-            Explore Wormhole
+          <Link href="https://boards.greenhouse.io/wormholelabs" className="btn">
+            Join Us
           </Link>
         </div>
       </div>
@@ -56,9 +56,8 @@ export default function Home() {
             <div className="text-lg font-light opacity-70 leading-normal max-w-[465px]">
               <p className="mb-6">
                 Wormhole Labs is a technology company specializing in blockchain interoperability. 
-                We make significant contributions to the Wormhole messaging protocol because we 
-                envision a wide array of permissionless systems built atop a multitude of blockchains 
-                with users who can safely ignore the underlying technology, or dive deep if they choose.
+                We envision a wide array of permissionless systems built atop a multitude of blockchains
+                with users who can ignore the underlying technology or dive deep if they choose.
               </p>
               <p className="mb-6">
                 Our team members hail from diverse backgrounds, ranging from
@@ -83,9 +82,7 @@ export default function Home() {
 
             <h4 className="h2 mb-6">Contact</h4>
             <p className=" font-light opacity-70 leading-normal  mb-9 max-w-[468px]">
-              Whether you're a developer who wants to contribute to Wormhole or 
-              an enterprise looking for cutting-edge blockchain solutions,
-              Wormhole Labs is here to help.
+              Wormhole Labs is here to help you navigate building for a multichain world.
             </p>
             <Link href="mailto:contact@wormholelabs.xyz" className="btn">
               Email Us
