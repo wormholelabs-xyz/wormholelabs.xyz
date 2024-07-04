@@ -51,7 +51,7 @@ const Header = () => {
         } `}
       >
         <div
-          className={`bg-white rounded-lg text-black flex px-6 lg:px-10 items-center justify-between ${
+          className={`bg-white rounded-lg text-black flex px-6 lg:px-10 items-center justify-between transition-all duration-500 ${
             isSticky ? "py-3 " : " py-3 md:py-8 "
           }`}
         >
