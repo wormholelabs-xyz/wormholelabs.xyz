@@ -41,7 +41,7 @@ export default function Home() {
             At Wormhole Labs, we're committed to forging a future where
             interoperability and security lead the blockchain revolution.
           </p>
-          <Link href="https://boards.greenhouse.io/wormholelabs" className="btn">
+          <Link href="https://jobs.ashbyhq.com/wormhole-labs" className="btn">
             Join Us
           </Link>
         </div>
