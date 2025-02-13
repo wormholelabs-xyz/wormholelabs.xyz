@@ -68,7 +68,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="menuitem" href="https://boards.greenhouse.io/wormholelabs/">
+              <Link className="menuitem" href="https://jobs.ashbyhq.com/wormholelabs">
                 Jobs
               </Link>
             </li>
